@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Business Website</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top shadow">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand font-monospace">Cilek Mimarlik</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar"
+          aria-controls="navbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="" class="nav-link active text-uppercase">home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#About" class="nav-link text-uppercase">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Team" class="nav-link text-uppercase">Team</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Services" class="nav-link text-uppercase">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Contact" class="nav-link text-uppercase">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Navigation -->
+    <!-- Header -->
+    <header
+      class="vh-100"
+      style="
+        background: url(https://scontent.fkya2-1.fna.fbcdn.net/v/t31.18172-8/883622_348669345239868_1798898515_o.jpg?_nc_cat=107&ccb=1-5&_nc_sid=e3f864&_nc_ohc=olN1uSrzP0oAX9KBCxU&_nc_ht=scontent.fkya2-1.fna&oh=07407a9f004660ad31f12f21b906f04f&oe=6196CCB4)
+          center/cover no-repeat;
+      "
+    >
+      <div class="container mt-5 pt-5 h-25">
+        <h4 class="text-light font-monospace text-shadow animate-text-right">
+          Yaşam için Tasarımlar
+        </h4>
+        <h1 class="display-1 text-white text-shadow animate-text-right-3s">
+          Mühendislik Mimarlik Danişmanlik Ve Ar-Ge Hizmetleri
+        </h1>
+        <button
+          class="btn btn-lg btn-info shadow mt-3 animate-text-right-5s"
+          data-bs-toggle="modal"
+          data-bs-target="#getOffer"
+        >
+          Teklif Al
+        </button>
+      </div>
+      <div
+        class="modal fade"
+        id="getOffer"
+        tabindex="-1"
+        aria-labelledby="getOfferLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="getOfferLabel">Yeni Mesaj</h5>
+              <button
+                class="btn-close"
+                type="button"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form action="#">
+                <div class="mb-3">
+                  <label class="col-form-label">Gönderen:</label>
+                  <input type="text" class="form-control" />
+                </div>
+                <div class="mb-3">
+                  <label class="col-form-label">İsim:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="İsminizi giriniz"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="col-form-label">SoyAd:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Soyisminizi giriniz"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="col-form-label">Gönderen:</label>
+                  <textarea type="text" class="form-control"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button
+                class="btn btn-danger"
+                type="button"
+                data-bs-dismiss="modal"
+              >
+                Kapat</button
+              ><button class="btn btn-primary" type="submit">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End of Header -->
+    <!-- About Section -->
+    <section id="About" class="container mt-5 pt-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <h4 class="fint-monospace my-5">Hakkımızda!</h4>
+          <h2 class="display-1">
+            2012'den bugüne Çilek Mimarlık bir çok projeye imza attı.
+          </h2>
+        </div>
+      </div>
+      <div
+        class="card border-0 my-3 text-white bg-info mx-auto"
+        style="max-width: 1400px"
+      >
+        <div class="row g-0">
+          <div class="cold-md-6">
+            <img
+              src="https://source.unsplash.com/376KN_ISplE"
+              alt="aboutimg"
+              class="card-img-top"
+            />
+          </div>
+          <div class="cold-md-6">
+            <div class="card-body mt-3 p-2 text-center">
+              <h5 class="card-title fs-5 font-monospace">Biz kimiz</h5>
+              <p class="card-text fs-1 mt-3">
+                Deneyim ve tecrübelerimiz ile kaliteyi prensip edinmiş İç
+                Anadolu da faaliyet gösteren mimarlik ve inşaat firmasıyız.
+              </p>
+              <button
+                class="btn btn-light mt-3 shadow"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#aboutModal"
+              >
+                Çalışmalarımız
+                <i
+                  class="bi bi-info-circle"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="right"
+                  title="Daha fazla bilgi edin"
+                ></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="aboutModal"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="aboutModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="aboutModalLabel">Hakkimizda</h5>
+              <nav id="about-content">
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a href="#2012" class="nav-link">2012</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#2015" class="nav-link">2015</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#2018" class="nav-link">2018</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#2021" class="nav-link">2021</a>
+                  </li>
+                </ul>
+              </nav>
+              <button
+                class="btn-close"
+                type="button"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <h4 id="2012">2012</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                facere necessitatibus exercitationem quisquam assumenda ullam
+                adipisci nesciunt. Eum vero soluta hic id omnis dolorum
+                laudantium, impedit provident voluptatum corporis cum optio
+                accusantium! Quasi iusto asperiores exercitationem in ullam ex
+                provident mollitia sint fugit perferendis temporibus facere
+                veniam illo voluptatum, cumque consequuntur velit, praesentium
+                amet ab laboriosam fugiat aut quod? Rem minus recusandae
+                quibusdam quaerat, exercitationem suscipit praesentium officia
+                nihil odit neque? Velit vitae exercitationem harum. Labore nam
+                unde, voluptates, beatae officia dolores numquam aspernatur
+                perferendis eos dolore odit nihil? Ducimus beatae voluptatum
+                recusandae adipisci doloribus pariatur id? Impedit illum nemo
+                veniam rem aliquam. Possimus deleniti non minima natus,
+                doloribus eius sunt perferendis aliquam esse voluptatum
+                assumenda aperiam? Ab deleniti, perspiciatis ad magni minima
+                sapiente est adipisci maiores eos eligendi reprehenderit illo
+                vel, blanditiis nemo, illum pariatur impedit dolorem enim nam
+                suscipit eaque? Dolorem officiis cumque doloremque animi modi
+                vero doloribus amet, error veritatis culpa laudantium non
+                assumenda! Ea, autem perferendis eum voluptatum vel quaerat
+                atque harum eaque enim pariatur cumque? Aperiam iure nemo fugiat
+                tenetur nihil voluptas pariatur? Rerum animi quae, aliquid
+                eligendi maxime voluptate culpa! Hic repellat, molestias
+                voluptatibus eveniet aliquam possimus dignissimos! Accusamus
+                quis dicta ea qui molestias error quisquam doloribus impedit
+                nulla magnam ut quia ipsa commodi corrupti, nostrum sint?
+                Dignissimos sunt neque perferendis rerum reiciendis in similique
+                quam nostrum architecto debitis, laboriosam itaque ab dicta
+                voluptates asperiores tenetur aliquam sapiente quas optio
+                voluptatibus? Nihil consequuntur debitis sapiente quos at
+                voluptatibus laboriosam ullam quasi cupiditate dignissimos
+                numquam expedita odit atque esse, labore itaque magnam doloribus
+                soluta delectus! Saepe quis quidem eius, possimus autem porro
+                accusantium itaque et vitae unde, perferendis distinctio amet,
+                error placeat corrupti laborum in ex? Commodi nisi dicta, rerum
+                illo excepturi autem assumenda? Consequatur accusantium nihil ea
+                perferendis autem optio ipsum magni, distinctio ipsam.
+              </p>
+              <h4 id="2015">2015</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id
+                neque qui odio aperiam sit ratione soluta quam possimus
+                recusandae officiis eaque ad fugiat dolorum hic doloremque,
+                quaerat dolore ab expedita suscipit? Enim nemo iste nisi
+                expedita hic nihil laudantium quos perspiciatis autem ipsa error
+                fugit repellat harum quo ipsum commodi tenetur sint, nostrum
+                dolor consectetur quisquam ad sunt provident nulla? Laudantium
+                accusamus totam inventore atque necessitatibus hic numquam
+                excepturi aliquid. Voluptas fuga atque eum, libero alias
+                veritatis asperiores ex quod minima quasi ea aperiam enim cum,
+                quia unde vero expedita sequi error nihil? Maxime enim
+                voluptatibus possimus magnam corrupti beatae placeat
+                necessitatibus, non aspernatur officiis distinctio delectus
+                quisquam sint pariatur ratione odit unde eius incidunt a saepe,
+                sed vero omnis! Aut, eaque, voluptatem voluptates aliquid culpa
+                eum beatae numquam temporibus facilis, nobis hic. Cumque, harum
+                voluptatem iusto quam optio unde obcaecati possimus, debitis
+                itaque odit maiores, et officia ducimus. Itaque nesciunt
+                doloremque quam, saepe modi debitis illum aliquam, dignissimos,
+                velit quibusdam molestias. Illum eaque ratione autem? Error
+                natus doloribus quaerat facilis suscipit libero autem voluptas
+                dignissimos alias at ea quos iure, consectetur, cupiditate,
+                accusantium dolorem iusto fuga? Ipsum alias corrupti officiis
+                voluptatem quidem nulla pariatur maxime est vel, odit eius
+                officia asperiores nobis earum fugiat laboriosam rerum commodi
+                eum similique assumenda, ab totam ullam doloremque.
+                Voluptatibus, suscipit magnam? Sit nemo at quae neque
+                temporibus. Labore veritatis quis, praesentium officia accusamus
+                excepturi quisquam magni veniam aliquam voluptatum maiores fugit
+                adipisci officiis quae explicabo, vitae soluta, corporis
+                consequatur autem et. Possimus quos dicta est consectetur
+                ducimus? Quas corporis blanditiis non esse a, exercitationem
+                dicta asperiores quae nesciunt fuga! Dignissimos excepturi ad
+                quis? Architecto, explicabo eos suscipit aliquid natus pariatur
+                dolore reprehenderit optio blanditiis! Blanditiis corrupti ex
+                fuga odio voluptas voluptate voluptates, reprehenderit magnam,
+                laudantium, recusandae illo omnis corporis! Nesciunt unde quae
+                ipsa?
+              </p>
+              <h4 id="2018">2018</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab
+                magnam at exercitationem placeat rem nemo dolor facere corporis
+                aliquam porro saepe, alias quia reprehenderit laborum iure quo
+                accusantium soluta praesentium, quisquam possimus neque minima
+                corrupti. Voluptate similique neque perferendis reiciendis eos
+                nihil reprehenderit iste quibusdam veritatis quis? Dolor, odit
+                quisquam laudantium sunt necessitatibus ducimus velit vero
+                veniam doloribus possimus, ratione fugiat. Illum eveniet fugiat
+                quo consequuntur. Architecto harum quaerat fuga neque eius omnis
+                voluptatem aperiam earum minima? Eum, sint veniam. Ullam aperiam
+                sunt voluptate ipsa adipisci! Sit accusamus id nihil obcaecati.
+                Fuga voluptates numquam ullam tempora. Quos unde nemo
+                exercitationem maiores labore quibusdam odit. Dolore fugit
+                similique rerum et quas, quaerat atque maiores eaque autem! Id,
+                ducimus? Dolor nemo sed autem ducimus hic atque voluptates earum
+                quis odit est, molestiae consequatur soluta incidunt minima nam,
+                praesentium suscipit! Quia animi pariatur in ipsum aliquid at
+                ullam praesentium quaerat. Necessitatibus porro molestias
+                eveniet, sequi enim amet debitis atque quibusdam similique
+                obcaecati tenetur voluptates, commodi ducimus, eligendi sit
+                sapiente corrupti possimus laborum incidunt quis doloribus?
+                Dicta obcaecati excepturi veniam totam repellat cumque tempora
+                distinctio, laboriosam atque quae, doloremque voluptates quam
+                molestias, dolores deserunt sed. Ratione laborum odio cum
+                consequuntur quas hic autem? Autem nihil harum iure! Ducimus a
+                sequi distinctio, quisquam voluptatibus, laborum harum dolorum
+                perferendis ut explicabo rem eveniet ad et eligendi dolores ab
+                saepe dicta maxime commodi? Necessitatibus officiis facere
+                commodi maiores sit repellat, alias error magnam animi ullam
+                esse autem enim corrupti expedita doloribus corporis
+                perferendis? Neque consequuntur ipsam quod quaerat enim
+                molestias, ab illo esse sit tenetur quibusdam earum corrupti,
+                dolorem excepturi consequatur amet labore fugiat ea optio!
+                Temporibus, aut debitis rerum quam quisquam aspernatur minima
+                molestias? Eos incidunt aspernatur esse architecto dolorem
+                nesciunt! Pariatur, assumenda obcaecati, beatae dignissimos
+                sequi delectus quos id nemo tempore saepe quod ex atque?
+              </p>
+              <h4 id="2021">2021</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
+                iusto amet quae illo voluptatibus veritatis nemo ipsam, dolores
+                aut? Necessitatibus ullam magni nobis voluptatum. Voluptatem
+                quae eos quod dolorem molestiae doloribus dicta dolor, non
+                quaerat provident obcaecati rerum temporibus, consequuntur
+                reiciendis tenetur, veritatis quas libero possimus commodi alias
+                et! Fugit, nobis? Aut ipsum temporibus fuga impedit odio
+                explicabo magni delectus neque natus! Perspiciatis iure
+                deserunt, quidem sequi dicta minima sunt, exercitationem qui
+                nesciunt, quibusdam deleniti! Velit ea quibusdam officiis
+                sapiente architecto ipsum. Eligendi possimus repudiandae odit
+                doloribus nihil corrupti quisquam voluptatum sequi quia nobis
+                quos hic ea consequatur veritatis temporibus cumque ad, neque
+                perferendis alias dolorum, ipsa iusto fugiat tempora sint.
+                Cumque natus voluptatem maxime fugit ad laudantium aperiam saepe
+                adipisci iste, repellat possimus illo architecto aut minus, eos
+                eaque suscipit deleniti tempora nihil deserunt aspernatur alias,
+                dolor exercitationem ducimus. Doloribus illum id et possimus
+                nemo magni quia necessitatibus a? Saepe magnam esse enim,
+                tempore, quis beatae officiis odit dolorem qui aliquam harum
+                fugit tenetur maiores. Eius corrupti similique rem tenetur! Enim
+                a, voluptates unde officia quibusdam accusantium aperiam sed.
+                Reprehenderit hic unde nobis officia consectetur dicta ut
+                corrupti dolores placeat fugiat adipisci exercitationem cumque
+                sint sunt porro architecto dolore ratione aliquid vitae natus,
+                harum voluptate, rerum eius vel. Ratione reiciendis, sapiente
+                hic dignissimos, sequi labore adipisci repellat nobis error, sit
+                numquam. Labore asperiores saepe repellat possimus provident
+                soluta quae natus ea quisquam recusandae et debitis, neque
+                consequuntur dolorum quidem, quam animi excepturi dignissimos!
+                Doloribus, recusandae voluptas odit non aut, eius sed libero
+                excepturi sint aperiam assumenda sunt sapiente incidunt
+                consequuntur fuga. Tenetur accusantium voluptas tempore dolorem
+                vero cum maxime qui error distinctio ad corrupti ullam iste
+                enim, repudiandae nobis eius iure odio explicabo. Maiores,
+                molestias? Omnis culpa perspiciatis maxime, iste laborum hic,
+                earum optio sint, sapiente exercitationem dolor neque?
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button
+                class="btn btn-danger"
+                type="button"
+                data-bs-dismiss="modal"
+              >
+                Kapat
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of About Section -->
+    <!-- Team Section-->
+    <section class="container mb-5 pt-4" id="team">
+      <div class="row">
+        <div class="col-lg-6">
+          <h4 class="font-monospace my-5">Ekibimiz</h4>
+          <h2 class="display-1">Konusunda Uzman Ekibimiz</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 mb-5 mb-sm-3">
+          <div class="card shadow" style="width: 18rem">
+            <img
+              src="https://source.unsplash.com/7YVZYZeITc8"
+              alt=""
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Alperen Cilek</h5>
+              <p class="card-text text-info">Mühendis</p>
+              <a
+                tabindex="0"
+                class="btn btn-sm btn-info"
+                role="button"
+                data-bs-toggle="popover"
+                data-bs-trigger="focus"
+                title="Alperen"
+                data-bs-content="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut vero officia doloremque omnis quae quisquam nobis sed ex neque maxime!"
+                >Hakkında</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-5 mb-sm-3">
+          <div class="card shadow" style="width: 18rem">
+            <img
+              src="https://source.unsplash.com/RGtSTDmmcCk"
+              alt=""
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Jenny Forgive</h5>
+              <p class="card-text text-info">Mühendis</p>
+              <a
+                tabindex="0"
+                class="btn btn-sm btn-info"
+                role="button"
+                data-bs-toggle="popover"
+                data-bs-trigger="focus"
+                title="Alperen"
+                data-bs-content="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut vero officia doloremque omnis quae quisquam nobis sed ex neque maxime!"
+                >Hakkında</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-5 mb-sm-3">
+          <div class="card shadow" style="width: 18rem">
+            <img
+              src="https://source.unsplash.com/u3WmDyKGsrY"
+              alt=""
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Demet Cilek</h5>
+              <p class="card-text text-info">Mühendis</p>
+              <a
+                tabindex="0"
+                class="btn btn-sm btn-info"
+                role="button"
+                data-bs-toggle="popover"
+                data-bs-trigger="focus"
+                title="Alperen"
+                data-bs-content="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut vero officia doloremque omnis quae quisquam nobis sed ex neque maxime!"
+                >Hakkında</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Team Section -->
+    <!-- Services -->
+    <section id="Services" class="container mb-5 pt-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <h4 class="font-monospace my-5">Teklifimiz</h4>
+          <h2 class="display-1">Size özel hizmetlerimizden yararlanın</h2>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-4">
+        <div class="col card shodow text-white bg-primary mb-5 mb-sm-3">
+          <div class="card-header display-6 mt-2 shadow">
+            <i class="bi bi-briefcase"></i>Mimari Tasarım
+          </div>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+            <div class="list-group mb-3">
+              <label for="" class="list-gruop-item"
+                ><input type="checkbox" class="form-check-input me-1" />Ilk
+                Kontrol Kutusu
+              </label>
+              <label for="" class="list-gruop-item"
+                ><input type="checkbox" class="form-check-input me-1" />Ikinci
+                Kontrol Kutusu
+              </label>
+              <label for="" class="list-gruop-item"
+                ><input type="checkbox" class="form-check-input me-1" />Üçüncü
+                Kontrol Kutusu
+              </label>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-outline-light">Başla</a>
+          </div>
+        </div>
+        <div class="col card shodow text-white bg-info mb-5 mb-sm-3">
+          <div class="card-header text-dark display-6 mt-2 shadow">
+            <i class="bi bi-briefcase"></i>Proje Tasarım
+          </div>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+            <div class="list-group mb-3">
+              <label for="" class="list-gruop-item"
+                ><input type="checkbox" class="form-check-input me-1" />Ilk
+                Kontrol Kutusu
+              </label>
+              <label for="" class="list-gruop-item"
+                ><input type="checkbox" class="form-check-input me-1" />Ikinci
+                Kontrol Kutusu
+              </label>
+              <label for="" class="list-gruop-item"
+                ><input type="checkbox" class="form-check-input me-1" />Üçüncü
+                Kontrol Kutusu
+              </label>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-outline-light">Başla</a>
+          </div>
+        </div>
+        <div class="col card shodow text-white bg-primary mb-5 mb-sm-3">
+          <div class="card-header display-6 mt-2 shadow">
+            <i class="bi bi-briefcase"></i>İç Mekan Tasarımı
+          </div>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+            <div class="list-group mb-3">
+              <label for="" class="list-gruop-item"
+                ><input type="checkbox" class="form-check-input me-1" />Ilk
+                Kontrol Kutusu
+              </label>
+              <label for="" class="list-gruop-item"
+                ><input type="checkbox" class="form-check-input me-1" />Ikinci
+                Kontrol Kutusu
+              </label>
+              <label for="" class="list-gruop-item"
+                ><input type="checkbox" class="form-check-input me-1" />Üçüncü
+                Kontrol Kutusu
+              </label>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-outline-light">Başla</a>
+          </div>
+        </div>
+        <div class="col card shodow text-white bg-info mb-5 mb-sm-3">
+          <div class="card-header text-dark display-6 mt-2 shadow">
+            <i class="bi bi-briefcase"></i>İş Güvenliği Uzmanlığı
+          </div>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+            <div class="list-group mb-3">
+              <label for="" class="list-gruop-item"
+                ><input type="checkbox" class="form-check-input me-1" />Ilk
+                Kontrol Kutusu
+              </label>
+              <label for="" class="list-gruop-item"
+                ><input type="checkbox" class="form-check-input me-1" />Ikinci
+                Kontrol Kutusu
+              </label>
+              <label for="" class="list-gruop-item"
+                ><input type="checkbox" class="form-check-input me-1" />Üçüncü
+                Kontrol Kutusu
+              </label>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-outline-light">Başla</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Services -->
+    <!-- Footer -->
+    <footer id="Contact" class="bg-light pt-3">
+      <div class="container">
+        <h4 class="text-info text-decoration-underline font-monospace mb-3">
+          Çilek Mühendislik
+        </h4>
+        <small class="fw-lighter"
+          >Mühendislik Mimarlik Danişmanlik Ve Ar-Ge Hizmetleri</small
+        >
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          tempore voluptatum ducimus praesentium autem? Ipsam inventore sed
+          sint, soluta sunt commodi animi, non, assumenda a quibusdam deleniti
+          officia eveniet. Odio.
+        </p>
+        <div class="row">
+          <div class="col container">
+            <h5>Linkler</h5>
+            <ul>
+              <li>Home</li>
+              <li>Hakkımızda</li>
+              <li>Hizmetlerimiz</li>
+              <li>Facebook</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+          <div class="col container">
+            <h5>Çözümlerimiz</h5>
+            <ul>
+              <li>Kat Mülkiyeti</li>
+              <li>Cins Değişikliği</li>
+              <li>İmar Barışı</li>
+              <li>3D Modelleme</li>
+              <li>Proje Danışmanlık</li>
+            </ul>
+          </div>
+          <div class="col container">
+            <h5>İletişim</h5>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <i class="bi bi-house-door m-2 text-info"></i> Sivas
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-signpost-2 m-2 text-info"></i> Şarkışla
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-telephone m-2 text-info"></i> 0346512XXXX
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-envelope m-2 text-info"></i> ınfo@mail.com
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-globe m-2 text-info"></i>
+                www.cilekmuhendislik.com
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="bg-dark text-light text-center mt-3 p-3">
+        <div class="row">
+          <div class="col-sm-7">
+            &copy; Copyright 2021
+            <span class="font-monospace">Çilek Mühendislik</span> Bütün hakları
+            saklıdır.
+          </div>
+          <div class="col-sm-5">
+            Designed by <span class="font-monospace">Murat UTLU</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+    <!-- Scrips -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Tooltips Script -->
+    <script>
+      var tooltipTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      );
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      });
+    </script>
+    <!-- End of Tooltips Script -->
+    <!-- Popover Script -->
+    <script>
+      var popoverTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="popover"]')
+      );
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl);
+      });
+    </script>
+    <!-- End of Popover Script -->
+    <!-- End of Scripts -->
+  </body>
+</html>
